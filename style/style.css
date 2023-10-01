@@ -1,0 +1,119 @@
+body {
+    direction: rtl;
+    background-color: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.header {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header img {
+    width: 50%;
+    height: 700px;
+    margin: 20px auto;
+    
+}
+.header .box {
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    margin: 50px auto;
+}
+.header .box h1 {
+    position: relative;
+    bottom: 150px;
+    color: #fff;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.header .box h3 {
+    color: #fff;
+position: relative;
+bottom: 120px;
+font-size: 50px;
+font-weight: bold;
+}
+.header .box .button-1 {
+    position: relative;
+    bottom: 80px;
+}
+.header .box .button-1 button {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 15px;
+    padding: 15px 100px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: #fff;
+    background-color: #fff;
+}
+.header .box .button-1 .google,
+.header .box .button-1 .apple
+{
+    padding: 15px 100px;
+}
+.header .box .button-1 .apple {
+    margin-top: 15px;
+}
+.header .box span {
+    position: relative;
+    bottom: 10px;
+    right: 170px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.header .box .button-1  .login {
+    padding: 15px 140px;
+    background-color: rgb(0, 161, 219);
+    border-color: #000;
+    color: #fff;
+}
+.header .box .text {
+    position: relative;
+    right: 20px;
+}
+.header .box .text p {
+    color: #777;
+}
+.header .box .text a {
+    text-decoration: none;
+    color: rgb(0, 161, 219);
+}
+.header .box .button-2 h2 {
+    color: #fff;
+    position: relative;
+    right: 20px;
+}
+.header .box .button-2 button {
+    color:  rgb(0, 161, 219);
+    padding: 15px 135px;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #000;
+    border-radius: 25px;
+    border: 2px solid #777;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 50px;
+}
+footer ul li {
+    font-size: 15px;
+    color: #777;
+}
